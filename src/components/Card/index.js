@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Card = () => <h1>First Component to test</h1>;
+const Card = ({ title }) => <h1>{title}</h1>;
 
 export default Card;
