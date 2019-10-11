@@ -4,7 +4,7 @@ import { shallow } from 'enzyme';
 import Card from '../components/Card/index';
 
 describe('Card', () => {
-    
+
     // Render the component
     it('Card renders without crashing', () => {
         shallow(<Card />)
@@ -21,7 +21,7 @@ describe('Card', () => {
 })
 
 describe('Card rendering', () => {
-    
+
     it('should throws error if no prop', () => {
         throw new Error
     })
